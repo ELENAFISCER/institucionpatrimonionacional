@@ -1,17 +1,23 @@
 import React from 'react';
 import logo from '/src/images/logo.png'; 
-const Header = ({siteTitle,description}) => {
+import backgroundImage from '/src/images/background.jpg';
+
+const Header = ({siteTitle, description}) => {
   return (
-    <header>
+    <header style={{ 
+      backgroundImage: `url(${backgroundImage})`, 
+      backgroundSize: 'cover', 
+      backgroundPosition: 'center', 
+      color: 'white',
+      padding: '20px'
+    }}>
       <div className='logo'>
-        <img src={logo} alt="Logo"/>
+        <img src={logo} alt="logo" />
       </div>
       <div className='encabezados'>
-      <h1>{siteTitle}</h1>
-      <h2>{description}</h2>
+        <h1>{siteTitle}</h1>
+        <h2>{description}</h2>
       </div>
-      
-    
     </header>
   );
 };

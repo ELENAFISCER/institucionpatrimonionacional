@@ -2,7 +2,7 @@ body{
   font-family: Arial, Helvetica, sans-serif;
 }
 header,footer{
-  background-color: #333;
+  background-color: #000000;
   color:whitesmoke;
 }
 header{
@@ -10,9 +10,11 @@ header{
 }
 header .logotipo{
 width:18%;
+background-color: bisque;
 }
 .logotipo img{
-  width: 100%;
+  width: 50%;
+
 }
 header .encabezados{
 width: 80%;
