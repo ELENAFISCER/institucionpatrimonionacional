@@ -18,12 +18,12 @@ const Presidencia = () => (
 
   <Layout>
 
-    <h1>BIENVENIDO A LA PRESIDENTA</h1>
+    <h1>BIENVENIDO A LA PRESIDENCIA</h1>
   
   <Link></Link>
 
     <h1>Ana de la Cueva, presidenta de Patrimonio Nacional</h1>
-    <img src={imagenPresidenta} alt="Imagen de la Presidenta Ana de la Cueva" />
+    <img src={imagenPresidenta} alt="Imagen de la Presidenta Ana de la Cueva" width= "900px"/>
     <p>Bienvenidos a Patrimonio Nacional.
 
 Somos una institución histórico-cultural única en el mundo. Cuidamos de más de 1.000 inmuebles, 170.000 piezas artísticas y 18.000 hectáreas de espacios verdes de gran riqueza medioambiental. Y lo hacemos con una doble misión: preservar y dar a conocer este valiosísimo legado y facilitar a la jefatura del Estado la labor representativa que le otorga nuestra Constitución.
