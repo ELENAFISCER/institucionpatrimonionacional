@@ -26,13 +26,18 @@ flex-wrap: wrap;
 .navegacion li{
   list-style: none;
   margin: 0 1em;
+  
 }
 .navegacion li a{
 text-decoration: none;
 color: black;
 }
+.navegacion li a{
+  color:rgb(255, 255, 255); 
+  background-color:black; 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
-
+}
 
 
 
