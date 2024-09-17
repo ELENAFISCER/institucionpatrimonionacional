@@ -10,19 +10,16 @@ import imagenLeonor from "/src/images/leonor.jpg";
 import imagenReyes from "/src/images/reyes.jpg";
 import imagenSofia from "/src/images/sofia.jpg";
 
-
 const Card = ({ imageSrc, altText, title }) => (
   <div style={{
-    
-    border: "1px solid #ccc", 
-    borderRadius: "8px", 
-    padding: "16px", 
-    textAlign: "center", 
+    border: "1px solid #ccc",
+    borderRadius: "8px",
+    padding: "16px",
+    textAlign: "center",
     margin: "16px",
     maxWidth: "300px",
     color: "black",
     fontFamily: "sans-serif"
-  
   }}>
     <img src={imageSrc} alt={altText} style={{ width: "100%", borderRadius: "8px" }} />
     <h3>{title}</h3>
@@ -31,7 +28,7 @@ const Card = ({ imageSrc, altText, title }) => (
 
 const Retratos = () => (
   <Layout>
-    <h1>Retratos de SS.MM.</h1>
+    <h1 style={{ textAlign: "center" }}>Retratos de SS.MM.</h1> 
     <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}>
       <Card 
         imageSrc={imagenFelipecapitan} 
