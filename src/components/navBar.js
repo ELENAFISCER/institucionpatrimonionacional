@@ -12,9 +12,10 @@ const NavBar = () => {
       <li><Link to="/historia">Conoce nuestra historia</Link></li>
       <li><Link to="/administracion">Consejo de administración</Link></li>
       <li><Link to="/oficiales">Actos oficiales e institucionales</Link></li>
-      <li><Link to="/rey">Casa de S.M el Rey</Link></li>
+      <li><Link to="/rey">Generador qr</Link></li>
       <li><Link to="/retratos">Retratos Oficiales</Link></li>
       <li><Link to="/ministerio">Ministerio de la Presidencia</Link></li>
+    
     </ul>
   </nav>
   </>
