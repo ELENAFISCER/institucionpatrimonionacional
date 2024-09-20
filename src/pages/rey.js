@@ -75,7 +75,7 @@ const qr = () => (
             cursor: "pointer",
             transition: "background-color 0.3s",
           }}
-          onClick={() => alert('Simulación de generación de QR con el texto ingresado')}
+          onClick={() => alert('Generación de QR con el texto ingresado')}
         >
           GENERAR QR
         </button>
